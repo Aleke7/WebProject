@@ -1,0 +1,30 @@
+.main {
+    text-align: center;
+    margin-top: 20vh;
+    border: 3px solid #DBA800;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+
+    .input-label {
+        margin-right: 2rem;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .enter-button {
+        padding: 1rem 1.5rem;
+        background-color: #DBA800;
+        color: black;
+        border: 0;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 3rem;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+}

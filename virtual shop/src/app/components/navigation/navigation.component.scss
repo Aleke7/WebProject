@@ -1,0 +1,36 @@
+.nav {
+    background-color: #DBA800;
+    padding: 3vh 5vw 3vh 5vw;
+
+    &-list {
+        display: flex;
+    
+        &-item {
+            display: flex;
+            cursor: pointer;
+            
+            &-text {
+                padding-top: 1.5rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        
+        }
+    
+        .logo-img {
+            width: 10vw;
+            height: 10vh;
+            cursor: pointer;
+        }
+    
+        .cart-img {
+            width: 10vh;
+            cursor: pointer;
+
+        }
+    
+    }
+}
+

@@ -1,0 +1,14 @@
+.main {
+    padding: 0 5vw 0 5vw;
+       
+    .category {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+
+    .category:hover {
+        background-color: darkgray;
+    }
+}   

@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+
+    .description-div {
+        display: flex;
+        
+        .img {
+            width: 10vw;
+            height: 15vh;
+        }
+    }
+
+    .delete-button {
+        background-color: darkred;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        border: 0;
+        border-radius: 16px;
+        padding: 1rem 1.5rem;
+    }
+
+    .title {
+        padding-top: 2rem;
+    }
+}
+
+.total-price-div {
+    margin-left: 80vw;
+    margin-right: 5rem;
+
+    .checkout-button {
+        border: 0;
+        border-radius: 16px;
+        color: black;
+        background-color: darkgreen;
+        font-size: 18px;
+        padding: 1rem 1.5rem;
+    }
+}
+
+.clear-cart {
+    border: 0;
+    border-radius: 16px;
+    color: white;
+    background-color: darkred;
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
