@@ -1,0 +1,8 @@
+
+<div class="main">
+    <ul *ngFor="let category of categories">
+        <li class="category" (click)="categoryButtonClick(category.id)">
+          <img class="product-image" src="{{category.image}}">  <h3>{{category.title}}</h3>
+        </li>
+    </ul>
+</div>
